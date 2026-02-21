@@ -1,38 +1,28 @@
-# 🧾 Ejercicio: Sistema de Pedidos de una Pizzería
+# 🍕 Ejercicio: Sistema de Pedidos de una Pizzería
 
-Una pizzería necesita un sistema para gestionar sus pedidos. 
-
-El objetivo de este ejercicio es  con varios problemas de diseño (code smells), para luego poder analizarlos y refactorizarlos.
-
-⚠️ **Importante**:  
-Este ejercicio **no busca una buena solución**, sino una que funcione pero esté mal diseñada.
+Una pizzería necesita un sistema para gestionar sus pedidos.
 
 ---
 
 ## 📌 Requisitos funcionales
 
-El sistema debe permitir:
-
-1. Crear pedidos
-2. Asociar un cliente a un pedido
-3. Agregar pizzas a un pedido
-4. Calcular el total del pedido
-5. Cambiar el estado del pedido
-6. Obtener los **pedidos piolas**
+1. Queremos crear un pedido con pizzas
+   - La fugazzetta tiene como precio **$400**
+   - Las otras pizzas se calculan **en función del precio de la fugazzetta**:
+     - Muzzarella: **90% del precio de la fugazzetta**
+     - Napolitana: **90% del precio de la fugazzetta**
+2. Obtener los **pedidos piolas**, que son los que tienen un total **mayor a $500**
 
 ---
 
-## 🍕 Tipos de pizza y precios
+## Qué se pide
 
-La **Fugazzetta** tiene como precio **$400**
+Cada equipo debe revisar [la solución propuesta](./src/main/kotlin/ar/edu/unsam/algo2/pizzas/Pizzas.kt) junto con los [tests](./src/test/kotlin/ar/edu/unsam/algo2/pizzas/PizzasSpec.kt) y
 
-Otras pizzas se calculan **en función del precio de la fugazzetta**:
+- encontrar code smells
+- pensar refactors que mejoren el código
 
-- Muzzarella: **90% del precio de la fugazzetta**
-- Napolitana: **90% del precio de la fugazzetta**
+## Material
 
----
-
-## 😎 Pedidos piolas
-
-Un pedido se considera **piola** si su total es **mayor a $500**.
+- [Apunte de Refactoring y manejo del cambio](https://docs.google.com/document/d/1cAje0qwy3Cus_ob0r-tatbcT01sDFeLt3MmSVmLeSxk/edit?tab=t.0)
+- [Video de Refactoring](https://www.youtube.com/watch?v=hLj-2sKj2_s&t=1589s)
