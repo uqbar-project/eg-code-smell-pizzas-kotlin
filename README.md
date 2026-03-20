@@ -17,12 +17,16 @@ Una pizzería necesita un sistema para gestionar sus pedidos.
 
 ## Qué se pide
 
-Cada equipo debe revisar [la solución propuesta](./src/main/kotlin/ar/edu/unsam/algo2/pizzas/Pizzas.kt) junto con los [tests](./src/test/kotlin/ar/edu/unsam/algo2/pizzas/PizzasSpec.kt) y
+Cada grupo de TP debe revisar [la solución propuesta](./src/main/kotlin/ar/edu/unsam/algo2/pizzas/Pizzas.kt) junto con los [tests](./src/test/kotlin/ar/edu/unsam/algo2/pizzas/PizzasSpec.kt) y
 
 - encontrar code smells
-- pensar refactors que mejoren el código
+- pensar refactors que mejoren el código. **Escribirlos en este mismo README**.
 
 ## Material
 
 - [Apunte de Refactoring y manejo del cambio](https://docs.google.com/document/d/1cAje0qwy3Cus_ob0r-tatbcT01sDFeLt3MmSVmLeSxk/edit?tab=t.0)
 - [Video de Refactoring](https://www.youtube.com/watch?v=hLj-2sKj2_s&t=1589s)
+
+## Solución
+
+...
